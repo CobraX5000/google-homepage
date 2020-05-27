@@ -1,0 +1,44 @@
+html{
+    font-family: Arial;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#top-flex-container{
+    margin: 15px 15px 0px 15px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 30px;
+    color: rgb(61, 61, 61);
+    font-size: small;
+    text-align: center;
+    line-height: 30px;
+}
+
+#deadspace{
+    width: 70vw;
+}
+
+#mid-flex-container{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+}
+#logo{
+    align-self: center;
+}
+#searchbar{
+}
+
+#signbutton{
+    background-color: rgb(78, 78, 255);
+    color: white;
+    width: 100px;
+    height: 40px;
+}
