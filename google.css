@@ -46,6 +46,7 @@ navbar {
     height: 40px;
     align-self: center;
     border-radius: 50px;
+    border-color: darkgray;
 }
 
 .sbutton{
